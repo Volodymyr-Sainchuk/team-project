@@ -1,11 +1,11 @@
 {
-  "name": "team-project-greenharvest",
+  "name": "team-project",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-project-greenharvest/",
+    "build": "vite build --base=/team-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
