@@ -1,0 +1,111 @@
+.vegetables {
+padding: 80px 0px;
+background-color: #7A3145;}
+   
+.vegetables-title {
+font-weight: 600;
+font-size: 48px;
+line-height: 1.08;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #ffffff;
+margin-bottom: 20px;}
+
+.span-vegetables {
+color: #D4BFC4;}
+
+.vegetables-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.43;
+color: #ffffff;
+margin-bottom: 40px;}
+
+.vegetables-list {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px; 
+justify-content: center;
+}
+        
+.vegetables-item {
+border-radius: 40px;
+background-color: #ffffff;
+padding: 32px 24px;}
+
+.card-title {
+font-weight: 600;
+font-size: 28px;
+line-height: 1.00;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+text-align: start;
+color: #7A3145;
+margin-bottom: 12px;}
+
+.card-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.43;
+color: #141414;
+text-align: start;
+margin-bottom: 12px;}
+
+.vegetables-photo {
+align-items:start;   
+}
+
+@media screen and (min-width: 768px)
+{
+.vegetables {
+padding: 100px 0;}
+
+.vegetables-title {font-size: 64px;
+line-height: 1.00;
+margin-bottom: 24px;}
+
+.vegetables-text {font-size: 16px;
+line-height: 1.25;
+margin-bottom: 52px;}
+
+.vegetables-list {
+flex-wrap: wrap;
+flex-direction: row;
+gap: 28px 24px;
+}
+
+.vegetables-item {
+padding: 32px 30px;
+width: calc((100% - 24px) / 2);}
+
+.vegetables-title-text {
+width: 626px;}
+
+.card-title {font-size: 32px;}
+
+.card-text {font-size: 16px;
+line-height: 1.25;}
+
+.vegetables-photo {
+align-items:s center;}
+}
+
+@media screen and (min-width: 1280px)
+{
+
+.vegetables-text {margin-bottom: 54px;}
+
+.card-text {
+margin-bottom: 8px;}
+
+.vegetables-list {
+gap: 28px 24px;}
+
+.vegetables-item {
+padding: 32px 32px;
+width: calc((100% - 48px) / 3);}
+}
+
+
+
