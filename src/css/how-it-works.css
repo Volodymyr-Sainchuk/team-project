@@ -1,0 +1,114 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* <!-- How it works Section --> */
+
+.howitworks {
+  max-width: 375px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hiw-left-container {
+  padding: 40px 20px;
+  flex-shrink: 1;
+  background-color: #7a3145;
+}
+
+.hiw-lwrap {
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  background: rgba(20, 20, 20, 0.2);
+}
+
+.hiw-right-container {
+  padding: 80px 20px;
+  flex-shrink: 1;
+  background-color: #576f35;
+}
+
+.hiw-header {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.hiw-hspan {
+  color: #d4bfc4;
+}
+
+.hiw-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+/* CSS counter */
+
+.hiw-list {
+  counter-reset: hiw-step;
+}
+
+.hiw-list li {
+  counter-increment: hiw-step; /* Збільшуємо лічильник */
+}
+
+.hiw-list li::before {
+  position: absolute;
+  left: 65px;
+  content: counter(hiw-step); /* Вставляємо номер */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.hiw-list-item {
+  border-radius: 15px;
+  padding: 12px 24px;
+  width: 100%;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.hiw-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.icon-li {
+  flex-shrink: 0;
+}
+
+.hiw-list-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #858585;
+}
+
+.hiw-tspan {
+  font-weight: 700;
+  color: #141414;
+}
