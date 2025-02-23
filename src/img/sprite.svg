@@ -9,8 +9,5 @@
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2" d="M5.333 8h21.333M5.333 16H16M5.333 24h21.333"/>
     </symbol>
-    <symbol id="icon-li" viewBox="0 0 32 32">
-      <path fill="#7a3145" style="fill: var(--color1, #7a3145); stroke: var(--color2, #d4bfc4)" stroke="#d4bfc4" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.0769" d="M30.462 16c0 7.987-6.475 14.462-14.462 14.462s-14.462-6.475-14.462-14.462c0-7.987 6.475-14.462 14.462-14.462s14.462 6.475 14.462 14.462z"></path>
-    </symbol>
   </defs>
 </svg>
