@@ -1,1 +1,106 @@
-<p>your order</p>
+<section class="your-order">
+  <div class="container order-container">
+    <div title-wrap>
+      <h2 class="order-title">
+        Fresh <span class="first-title-part">Harvest</span> Box has got you
+        covered
+      </h2>
+      <p class="order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="form-wrap">
+      <div class="modal order-part">
+        <p class="modal-title">
+          Ordering <span class="second-title-part">from us</span> is quick and
+          easy! Fill out <span class="third-title-part">the form</span> below
+          and we will contact you !
+        </p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label"></label>
+            <input
+              type="text"
+              class="modal-input"
+              id="user-name"
+              name="user-name"
+              placeholder="Full Name"
+              required
+              minlength="2"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label"></label>
+            <input
+              type="email"
+              class="modal-input"
+              name="user-email"
+              placeholder="Email"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+          </div>
+          <div class="modal-field-textarea">
+            <label for="user-comment" class="modal-label"></label>
+            <textarea
+              class="modal-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="modal-btn">Send</button>
+        </form>
+      </div>
+      <div class="soc-network order-part">
+        <div class="picture-wrap">
+          <picture class="pic">
+            <source
+              media="(min-width: 1280px)"
+              srcset="/img/order-desk.webp 1x, /img/order-desk@2x.webp 2x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/img/order-tab.webp 1x, /img/order-tab@2x.webp 2x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/img/order-mob.webp 1x, /img/order-mob@2x.webp 2x"
+            />
+            <img
+              src="/img/order-desk.webp"
+              alt="soc-network-picture"
+              width="428"
+              height="325"
+            />
+          </picture>
+        </div>
+
+        <div class="soc-network-wrap">
+          <p class="soc-network-text">Follow us on our social networks:</p>
+          <ul class="soc-list">
+            <li class="soc-item">
+              <a class="soc-link" href="https://www.instagram.com/goitclub/"
+                >instagram</a
+              >
+            </li>
+            <li class="soc-item">
+              <a class="soc-link" href="https://www.facebook.com/goITclub/"
+                >facebook</a
+              >
+            </li>
+            <li class="soc-item">
+              <a
+                class="soc-link link-youtube"
+                href="https://www.youtube.com/c/GoIT"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
