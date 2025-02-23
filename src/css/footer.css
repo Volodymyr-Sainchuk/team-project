@@ -19,7 +19,6 @@ address {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  max-width: 100%;
 }
 
 .bottom-info {
@@ -98,6 +97,7 @@ address {
     gap: 100px;
     padding-bottom: 32px;
     padding-top: 32px;
+    max-width: 100%;
   }
 
   .bottom-info {
@@ -150,6 +150,7 @@ address {
     gap: 124px;
     padding-bottom: 52px;
     padding-top: 52px;
+    max-width: 100%;
   }
 
   .bottom-info {
