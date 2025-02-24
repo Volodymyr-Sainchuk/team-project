@@ -70,7 +70,8 @@ align-items:start;
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  justify-items: center;
+   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
 
@@ -91,19 +92,38 @@ align-items:start;
 }
 
 .flip-card-back {
+  display: flex;
+  flex-direction: column; /* Розміщуємо елементи по вертикалі */
+  justify-content: space-between; /* Розподіляє елементи по вертикалі */
+  align-items: center; /* Вирівнює елементи по горизонталі */
 background-color: #576F35;
 border: 5px solid #7A3145;
 border-radius: 25px;
 color: #D4BFC4;
 text-transform: uppercase;
-align-content: center;
-justify-content: center;
-font-weight: 400;
-font-size: 25px;
+font-weight: 500;
+font-size: 30px;
 line-height: 1.08;
 letter-spacing: -0.01em;
 transform: rotateY(180deg);
+padding: 5px;
 }
+
+.flip-card-title {
+color: #ffffff;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.08;
+letter-spacing: -0.01em;
+ text-align: center;}
+
+.flip-card-text {
+font-weight: 300;
+font-size: 15px;
+line-height: 1.43;
+color: #ffffff;
+ text-align: center;
+text-transform: none;}
 
 @media screen and (min-width: 768px)
 {
