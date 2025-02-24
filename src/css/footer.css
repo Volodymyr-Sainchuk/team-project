@@ -12,8 +12,11 @@ address {
 
 /* footer */
 
-.bottom-container {
+.bottom {
   background-color: #7a3145;
+}
+
+.bottom-container {
   padding-bottom: 40px;
   padding-top: 40px;
   display: flex;
