@@ -84,7 +84,7 @@
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .header {
     height: 120px;
     padding: 32px;
@@ -124,7 +124,7 @@
     display: flex;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header {
     height: 100px;
     padding: 32px;
@@ -229,14 +229,14 @@
 }
 
 /* --- ПЛАНШЕТНАЯ ВЕРСИЯ  --- */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .mobile-menu {
     width: 320px;
   }
 }
 
 /* --- МОБИЛЬНАЯ ВЕРСИЯ  --- */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .mobile-menu {
     width: 100%;
   }
