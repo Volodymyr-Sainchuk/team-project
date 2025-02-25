@@ -29,7 +29,7 @@
 .hero-img {
   min-width: 320px;
   height: 372px;
-  background-image: url(../img/image-hero.webp);
+  background-image: url(/img/Image-hero.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
