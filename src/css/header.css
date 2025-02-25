@@ -17,7 +17,7 @@
 .logo-img {
   width: 216px;
   height: 20px;
-  fill: white;
+  fill: white; 
 }
 .nav-container {
   display: flex;
