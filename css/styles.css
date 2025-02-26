@@ -6,7 +6,8 @@
 
     .container-review {
         /* min-width: 320px; */
-        max-width: 375px;
+        max-width: 1200px;
+        width: 90%;
         margin: 0 auto;
         padding: 0 20px;
         display: flex;
@@ -58,11 +59,10 @@
     }
 
     .review-team {
-        list-style: none;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 20px;
+        gap: 32px;
     }
 
     .review-team-list img {
@@ -151,7 +151,7 @@
         border-radius: 24px; 
         border: 1px solid #ddd; 
         background: rgba(255, 255, 255, 0.9); 
-        box-shadow: 0 4px8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .review-team { 
