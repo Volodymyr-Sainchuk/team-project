@@ -1,7 +1,7 @@
 @media (min-width: 375px) {
     .review {
         background-color: #FBFBFB;
-        padding: 40px 0;
+        padding: 60px 0;
     }
 
     .container-review {
@@ -107,6 +107,7 @@
 
     .review-team-list {
         width: calc(50% - 32px);
+        flex-basis: calc(33.33% - 24px);
         border-radius: 24px;
         border-width: 1px;
         padding: 20px;
@@ -120,6 +121,7 @@
         display: flex;
         justify-content: space-between;
         gap: 32px;
+        align-items: stretch;
     }
 }
 
