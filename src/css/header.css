@@ -84,7 +84,7 @@
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .header {
     height: 120px;
     padding: 32px;
@@ -124,10 +124,10 @@
     display: flex;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .header {
     height: 100px;
-    padding: 32px;
+    padding: 20px;
   }
   .logo-img {
     width: 168px;
@@ -139,7 +139,7 @@
   }
 }
 
-/* Основне мобільне меню */
+/* Основное мобильное меню */
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -160,7 +160,7 @@
   box-shadow: none;
 }
 
-/* відкрите меню */
+/* Открытое меню */
 .mobile-menu.is-open {
   right: 0;
   opacity: 1;
@@ -228,15 +228,15 @@
   background: #642738;
 }
 
-/* --- ПЛАНШЕТНА ВЕРСІЯ  --- */
-@media (min-width: 480px) and (max-width: 1024px) {
+/* --- ПЛАНШЕТНАЯ ВЕРСИЯ  --- */
+@media (min-width: 768px) and (max-width: 1280px) {
   .mobile-menu {
-    width: 320px;
+    width: 351px;
   }
 }
 
-/* --- МОБIЛЬНАЯ ВЕРСИЯ  --- */
-@media (max-width: 480px) {
+/* --- МОБИЛЬНАЯ ВЕРСИЯ  --- */
+@media (max-width: 767px) {
   .mobile-menu {
     width: 100%;
   }
