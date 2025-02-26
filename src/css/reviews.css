@@ -1,224 +1,215 @@
 @media (min-width: 375px) {
-    .review {
-        background-color: #FBFBFB;
-    }
+  .review {
+    background-color: #fbfbfb;
+  }
 
-    .container-review {
-        /* min-width: 320px; */
-        max-width: 375px;
-        margin: 0 auto;
-        padding: 0 20px;
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-        gap: 40px;
-    }
+  .container-review {
+    /* min-width: 320px; */
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    gap: 40px;
+  }
 
-    .review-wrap {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+  .review-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-    .review-title {
-        color: #141414;
-        font-size: 48px;
-        letter-spacing: -0.01em;
-        line-height: 1.08;
-        text-transform: uppercase;
-    }
+  .review-title {
+    color: #141414;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    line-height: 1.08;
+    text-transform: uppercase;
+  }
 
-    .review-part {
-        color: #576F35;
-    }
+  .review-part {
+    color: #576f35;
+  }
 
-    .review-description {
-        color: #141414;
-        font-weight: 500;
-        font-size: 14px;
-        /* line-height: 20px; */
-        line-height: 1.43;
-    }
+  .review-description {
+    color: #141414;
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 20px; */
+    line-height: 1.43;
+  }
 
+  .review-team-list {
+    width: 335px;
+    height: 228px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 16px;
+    gap: 8px;
+    border: 1px solid rgba(221, 221, 221, 0.8);
+    background: rgba(255, 255, 255, 0.9);
+    border-width: 1px;
+  }
 
+  .rewiew-team-list:not(:first-child) {
+    display: none;
+  }
 
-    .review-team-list {
-        width: 335px;
-        height: 228px;
-        padding-top: 40px;
-        padding-right: 20px;
-        padding-bottom: 80px;
-        padding-left: 16px;
-        gap: 8px;
-        border: 1px solid rgba(221, 221, 221, 0.8);
-        background: rgba(255, 255, 255, 0.9);
-        border-width: 1px;
-    }
+  .review-team {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 
-    .rewiew-team-list:not(:first-child) {
-        display: none;
-    }
-
-    .review-team {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .review-team-list img {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-    }
+  .review-team-list img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
 }
-
 
 @media (min-width: 768px) {
-    .container-review {
-        max-width: 768px;
-        padding: 0 32px;
-        text-align: left;
-        align-items: flex-start;
+  .container-review {
+    max-width: 768px;
+    padding: 0 32px;
+    text-align: left;
+    align-items: flex-start;
+  }
 
-    }
+  .review-title {
+    size: 64px;
+    letter-spacing: -1.5%;
+    line-height: 64px;
+  }
 
-    .review-title {
-        Size: 64px;
-        letter-spacing: -1.5%;
-        line-height: 64px;
-    }
+  .review-title .review-part {
+    color: #576f35;
+  }
 
-    .review-title .review-part {
-        color: #576f35;
-    }
+  .review-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
 
-    .review-description {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0%;
-    }
+  .review-team-list {
+    width: 340px;
+    height: 248px;
+    gap: 8px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 20px;
+    width: calc(50% - 32px);
+  }
 
+  .rewiew-team-list:nth-child(2) {
+    display: inline-block;
+  }
 
-
-    .review-team-list {
-        width: 340px;
-        height: 248px;
-        gap: 8px;
-        border-radius: 24px;
-        border-width: 1px;
-        padding: 20px;
-        width: calc(50% - 32px)
-    }
-
-    .rewiew-team-list:nth-child(2) {
-        display: inline-block;
-    }
-
-    .review-team {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 32px;
-    }
+  .review-team {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
 }
 
-@media only screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
+  .container-review {
+    max-width: 1280px;
+    padding: 0 100px;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .container-review {
-        max-width: 1280px;
-        padding: 0 100px;
-        text-align: left;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .review {
+    padding: 100px;
+    font-family: Arial, sans-serif;
+  }
 
-    .review {
-        padding: 100px;
-        font-family: Arial, sans-serif;
-    }
+  .review-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+    width: 100%;
+    width: auto;
+    text-align: left;
+    display: block;
+    margin: 0;
+  }
 
+  .review-title .review-part {
+    color: #576f35;
+  }
 
+  .review-description {
+    font-family: Inter Tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+  }
 
-    .review-title {
-        font-weight: 600;
-        font-size: 64px;
-        line-height: 64px;
-        width: 100%;
-        width: auto;
-        text-align: left;
-        display: block;
-        margin: 0;
-    }
+  .review-team {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
 
-    .review-title .review-part {
-        color: #576f35;
-    }
+  .review-team-list {
+    width: calc((100% - 24px) / 2);
+  }
 
-    .review-description {
-        font-family: Inter Tight;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0%;
-        display: block;
-        text-align: left;
-        margin-top: 10px;
-    }
+  .review-team-name {
+    font-family: Inter Tight;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1.5%;
+    text-align: center;
+  }
 
-    .review-team {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-    }
+  .review-team-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
 
-    .review-team-list {
-        width: calc((100% - 24px) / 2);
-    }
+  .review-team-list {
+    width: 100%;
+    max-width: 344px;
+    padding: 20px;
+    border-radius: 24px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background: transparent;
+  }
 
-    .review-team-name {
-        font-family: Inter Tight;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 20px;
-        letter-spacing: -1.5%;
-        text-align: center;
-    }
+  .review-team-list img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+  }
 
-    .review-team-p {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: center;
-    }
+  .review-team-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
 
-    .review-team-list {
-        width: 100%;
-        max-width: 344px;
-        padding: 20px;
-        border-radius: 24px;
-        border: 1px solid #ddd;
-        text-align: center;
-        background: transparent;
-    }
-
-    .review-team-list img {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-    }
-
-    .review-team-content h3 {
-        font-size: 16px;
-        font-weight: bold;
-        margin: 10px 0;
-    }
-
-    .review-team-content p {
-        color: #858585;
-        font-size: 14px;
-    }
+  .review-team-content p {
+    color: #858585;
+    font-size: 14px;
+  }
 }
