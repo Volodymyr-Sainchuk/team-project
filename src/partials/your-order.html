@@ -19,36 +19,39 @@
       </p>
       <form class="modal-form">
         <div class="modal-field">
-          <label for="user-name" class="modal-label"></label>
-          <input
-            type="text"
-            class="modal-input"
-            id="user-name"
-            name="user-name"
-            placeholder="Full Name"
-            required
-            minlength="2"
-          />
+          <label for="user-name" class="modal-label">
+            <input
+              type="text"
+              class="modal-input"
+              id="user-name"
+              name="user-name"
+              placeholder="Full Name"
+              required
+              minlength="2"
+            />
+          </label>
         </div>
         <div class="modal-field">
-          <label for="user-email" class="modal-label"></label>
-          <input
-            type="email"
-            class="modal-input"
-            name="user-email"
-            placeholder="Email"
-            required
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          />
+          <label for="user-email" class="modal-label">
+            <input
+              type="email"
+              class="modal-input"
+              name="user-email"
+              placeholder="Email"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+          </label>
         </div>
         <div class="modal-field-textarea">
-          <label for="user-comment" class="modal-label"></label>
-          <textarea
-            class="modal-textarea"
-            id="user-comment"
-            name="user-comment"
-            placeholder="Comment"
-          ></textarea>
+          <label for="user-comment" class="modal-label">
+            <textarea
+              class="modal-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </label>
         </div>
         <button type="submit" class="modal-btn">Send</button>
       </form>
