@@ -107,6 +107,9 @@
   outline: transparent;
   resize: none;
 }
+.modal-textarea::-webkit-scrollbar {
+  display: none;
+}
 .modal-field-textarea {
   margin-bottom: 20px;
 }
