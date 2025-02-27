@@ -14,11 +14,11 @@ address {
 
 .bottom {
   background-color: #7a3145;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .bottom-container {
-  padding-bottom: 40px;
-  padding-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -96,10 +96,14 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .bottom-container {
-    gap: 100px;
+  .bottom {
     padding-bottom: 32px;
     padding-top: 32px;
+  }
+
+  .bottom-container {
+    gap: 100px;
+
     max-width: 100%;
   }
 
@@ -149,10 +153,14 @@ address {
 }
 
 @media screen and (min-width: 1280px) {
-  .bottom-container {
-    gap: 124px;
+  .bottom {
     padding-bottom: 52px;
     padding-top: 52px;
+  }
+
+  .bottom-container {
+    gap: 124px;
+
     max-width: 1280px;
   }
 
