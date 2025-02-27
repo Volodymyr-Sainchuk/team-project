@@ -49,17 +49,27 @@ address {
   gap: 40px;
 }
 
-.bottom-nav {
+.bottom-nav-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
   width: 228px;
+}
+
+.bottom-nav {
+
 
   text-transform: uppercase;
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.01em;
+
+
+  transition: 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .bottom-contacts {
@@ -71,6 +81,13 @@ address {
   font-weight: 700;
   font-size: 14px;
   line-height: 143%;
+}
+
+.bottom-tel, .bottom-adr {
+  transition: 
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .bottom-line {
@@ -94,6 +111,20 @@ address {
   margin-left: 8px;
   margin-right: 8px;
 }
+
+.bottom-nav:hover,
+.bottom-tel:hover,
+.bottom-adr:hover {
+   color: #D4BFC4;
+}
+
+.bottom-nav:focus,
+.bottom-tel:focus,
+.bottom-adr:focus {
+   color: #D4BFC4;
+   text-decoration: underline;
+}
+
 
 @media screen and (min-width: 768px) {
   .bottom {
