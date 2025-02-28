@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1280px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,6 +83,8 @@
 .burger-btn {
   display: none;
 }
+
+
 
 @media (max-width: 1280px) {
   .header {
@@ -244,4 +246,17 @@
   .mobile-menu-close {
     padding: 0px;
   }
+}
+
+
+/* update - center Header section, hide the mobile menu div */
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 1280px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    .mobile-menu {
+      display: none;
+    }
 }
