@@ -82,10 +82,10 @@
   font-size: 14px;
 }
 
-.modal-input:valid {
+.modal-input:focus:valid {
   border-color: #3cbc81;
 }
-.modal-input:invalid {
+.modal-input:focus:invalid {
   border-color: #e74a3b;
 }
 
